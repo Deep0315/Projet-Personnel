@@ -20,12 +20,12 @@ public class Carte {
         return couleur;
     }
 
-    /**
-     * Retourne la valeur de la carte en points pour le Blackjack.
-     * - Les cartes numériques valent leur nombre (2 à 10)
-     * - Les figures (Valet, Dame, Roi) valent 10 points
-     * - L'As vaut 11 par défaut (on ajustera selon le contexte plus tard)
-     */
+    /*
+    Retourne la valeur de la carte en points pour le Blackjack.
+    - Les cartes numériques valent leur nombre (2 à 10)
+    - Les figures (Valet, Dame, Roi) valent 10 points
+    - L'As vaut 11 par défaut (on ajustera selon le contexte plus tard)
+    */
     public int getValeurBlackjack() {
         switch (valeur) {
             case "As":
@@ -40,7 +40,6 @@ public class Carte {
     }
 
     //Représentation textuelle de la carte (ex : "As de Cœur")
-    @Override
     public String toString() {
         return valeur + " de " + couleur;
     }

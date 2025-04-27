@@ -160,6 +160,6 @@ public class Partie {
         System.out.println("- ÉGALITÉS  : " + egalites);
         System.out.println("-------------------------------------------------------------");
         System.out.println("Jetons finaux : " + joueur.getArgent());
-        System.out.println("Merci d’avoir joué, " + joueur.getNom() + " !");
+        System.out.println("Merci d'avoir joué, " + joueur.getNom() + " !");
     }
 }
